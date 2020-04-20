@@ -1,3 +1,6 @@
-import { add } from "mono.lib";
+import { add } from "@mono/lib";
+import { say } from "cowsay-browser";
 
-export default () => "Hi" + add(1)(2);
+export default () => (
+  <pre>{say({ text: `1 + 2 = ${add(1)(2).toString()}` })}</pre>
+);

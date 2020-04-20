@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "lerna run dev",
-    "build": "lerna run build",
+    "build": "tsc -b packages/**/tsconfig.build.json && lerna run build",
     "start": "lerna run start"
   },
   "workspaces": [
