@@ -1,0 +1,10 @@
+{
+  "name": "mono.lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ibrahim velinov",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
