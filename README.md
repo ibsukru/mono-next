@@ -1,3 +1,7 @@
+# ヾ(⌐■_■)ノ♪ 
+https://www.mixcloud.com/Dr_Rob/
+
+# Links
 https://dev.to/shnydercom/monorepos-lerna-typescript-cra-and-storybook-combined-4hli
 
 https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d
