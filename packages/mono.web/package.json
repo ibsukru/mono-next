@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node --trace-uncaught dist/index",
-    "start": "NODE_ENV=production babel-node dist/index",
+    "start": "NODE_ENV=production babel-node --config-file='./babel.server.config.js' dist/index",
     "build": "next build"
   },
   "dependencies": {
