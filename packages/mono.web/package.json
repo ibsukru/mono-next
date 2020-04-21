@@ -5,9 +5,9 @@
   "author": "ibrahim velinov",
   "license": "MIT",
   "scripts": {
-    "dev": "node dist/index",
-    "build": "next build",
-    "start": "NODE_ENV=production node dist/index"
+    "dev": "NODE_ENV=development node dist/index",
+    "start": "NODE_ENV=production node dist/index",
+    "build": "next build"
   },
   "dependencies": {
     "@mono/lib": "1.0.0",
