@@ -1,6 +1,9 @@
 import express from "express";
 import next from "next";
 
+import { install } from "source-map-support";
+install();
+
 const port = process.env.PORT || "3000";
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });

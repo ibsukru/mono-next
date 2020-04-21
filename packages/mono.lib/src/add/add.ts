@@ -1,5 +1,7 @@
 import { addType } from ".";
 
-const add: addType = (a) => (b) => a + b;
+const add: addType = (a) => (b) => {
+  return a + b;
+};
 
 export default add;

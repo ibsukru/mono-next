@@ -6,7 +6,7 @@
   "author": "ibrahim velinov",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --build tsconfig.esm.json"
+    "_build": "tsc --build tsconfig.esm.json"
   },
   "devDependencies": {
     "typescript": "^3.8.3"

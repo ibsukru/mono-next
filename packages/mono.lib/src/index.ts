@@ -1,3 +1,4 @@
 import add from "./add";
+import throws from "./throws";
 
-export { add };
+export { add, throws };
