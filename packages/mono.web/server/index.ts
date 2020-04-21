@@ -1,5 +1,7 @@
 import express from "express";
 import next from "next";
+import { add as dist } from "@mono/lib/src";
+import { add } from "@mono/lib";
 
 import { install } from "source-map-support";
 install();
@@ -18,6 +20,10 @@ app.prepare().then(() => {
 
   server.listen(port, (err) => {
     if (err) throw err;
-    console.log(`> Ready on http://localhost:${port}`);
+    console.log(
+      `> Ready on http://localhost:${port}, add(1)(3) = ${add(1)(3)} === ${dist(
+        1
+      )(3)}`
+    );
   });
 });

@@ -1,4 +1,4 @@
-import { add as dist } from "@mono/lib/dist/src";
+import { add as dist } from "@mono/lib/src";
 import { add } from "@mono/lib";
 import { say } from "cowsay-browser";
 
