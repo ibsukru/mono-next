@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "dev": "lerna run dev",
+    "dev:web": "yarn --cwd packages/mono.web dev",
+    "dev": "yarn dev:web",
     "build": "tsc -b packages/**/tsconfig.build.json && lerna run build",
     "start": "lerna run start"
   },
