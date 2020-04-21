@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node dist/index",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node dist/index"
   },
   "dependencies": {
     "@mono/lib": "1.0.0",
