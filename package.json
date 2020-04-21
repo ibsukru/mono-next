@@ -2,10 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "dev:web": "yarn --cwd packages/mono.web dev",
-    "dev": "yarn dev:web",
+    "clean": "rm -rf packages/**/dist* && tsc --build --clean",
+    "clear": "yarn clean && rm -rf packages/*/node_modules && rm -rf yarn.lock && yarn",
+    "dev": "yarn --cwd packages/mono.web dev",
     "start": "yarn --cwd packages/mono.web start",
-    "build": "tsc -b packages/**/tsconfig.build.json && lerna run build"
+    "build": "yarn clean && tsc -b packages/**/tsconfig.build.json && lerna run build"
   },
   "workspaces": [
     "packages/*"
