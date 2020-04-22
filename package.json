@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "nps": "nps",
     "build:types": "tsc -b packages/**/tsconfig.build.json",
     "clean": "rm -rf packages/**/dist* && tsc --build --clean",
     "clear": "yarn clean && rm -rf packages/*/node_modules && rm -rf yarn.lock && yarn",
@@ -17,12 +18,15 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^3.20.2",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "nps": "^5.9.12"
   }
 }
