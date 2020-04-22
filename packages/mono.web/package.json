@@ -1,12 +1,12 @@
 {
   "name": "mono.web",
   "version": "1.0.0",
-  "main": "dist/index",
+  "main": ".next/index",
   "license": "MIT",
   "scripts": {
-    "dev": "node --trace-uncaught dist/server",
-    "start": "NODE_ENV=production node dist/server",
-    "build": "next build & yarn run babel server -d --out-dir dist/server --extensions '.ts,.tsx' & yarn run babel common -d --out-dir dist/common --extensions '.ts,.tsx'"
+    "dev": "node --trace-uncaught .next/server",
+    "start": "NODE_ENV=production node .next/server",
+    "build": "next build & yarn run babel server -d --out-dir .next/server --extensions '.ts,.tsx' & yarn run babel common -d --out-dir .next/common --extensions '.ts,.tsx'"
   },
   "dependencies": {
     "mono.lib": "1.0.0",

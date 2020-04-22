@@ -1,8 +1,8 @@
 {
   "extends": "../../tsconfig.build.json",
-  "exclude": ["node_modules", "dist-esm", "dist", "**/*.story*", "**/*.test*"],
+  "exclude": ["node_modules", ".next", "**/*.story*", "**/*.test*"],
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": ".next"
   },
   "include": ["server/**/*.ts", "common/**/*.ts"]
 }
