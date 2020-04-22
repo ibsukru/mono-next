@@ -1,2 +1,4 @@
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-export const serverAndClient = () => "(▀̿Ĺ̯▀̿ ̿)";
+
+import face from "mono.fun/random/faces";
+export const serverAndClient = () => face();

@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "next build & yarn run babel server -d --out-dir dist --extensions '.ts'",
+    "build": "yarn run babel server -d --out-dir dist --extensions '.ts'",
     "start": "node dist --port:4000"
   },
   "devDependencies": {
     "@types/express": "^4.17.6"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mono.fun": "1.0.0"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "mono.fun",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build & yarn run babel random -d --out-dir dist/random --extensions '.ts'"
+  },
+  "dependencies": {
+    "@mono/lib": "1.0.0"
+  }
+}

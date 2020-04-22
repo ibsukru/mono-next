@@ -2,9 +2,11 @@
   "name": "@mono/lib",
   "version": "1.0.0",
   "main": "dist/index",
+  "types": "index",
   "module": "dist-esm/index",
   "license": "MIT",
   "scripts": {
+    "build": "yarn run babel src -d --out-dir dist --extensions '.ts'",
     "_build": "tsc --build tsconfig.esm.json"
   },
   "devDependencies": {

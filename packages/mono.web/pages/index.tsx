@@ -1,6 +1,7 @@
 import { add as dist } from "@mono/lib/src";
 import { add } from "@mono/lib";
-import { say } from "cowsay-browser";
+import { serverAndClient } from "../common";
+import face from "mono.fun/random/faces";
 
 export default () => {
   return (
@@ -12,8 +13,12 @@ export default () => {
         flexDirection: "column",
       }}
     >
-      <pre>{say({ text: `1 + 2 = ${add(1)(2).toString()}` })}</pre>
-      <pre>{say({ text: `2 + 1 = ${dist(2)(1).toString()}` })}</pre>
+      <pre>
+        {face()} dist says: {`2 + 1 = ${dist(2)(1).toString()}`}
+      </pre>
+      <pre>
+        {serverAndClient()} lib says: {`1 + 2 = ${add(1)(2).toString()}`}
+      </pre>
     </div>
   );
 };

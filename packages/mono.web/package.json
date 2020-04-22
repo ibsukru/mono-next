@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mono/lib": "1.0.0",
+    "mono.fun": "1.0.0",
     "cowsay-browser": "^1.1.8",
     "express": "^4.17.1",
     "next": "^9.3.5",
