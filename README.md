@@ -1,7 +1,7 @@
 # ヾ(⌐■_■)ノ♪ 
 https://www.mixcloud.com/Dr_Rob/
 
-###  📦Works also with babel module path resolvers if you have deep relative path imports in any package 
+### 📦 Works great with babel module path resolver, if you have deep relative path imports in your monorepo, please have a look at babel.config.js 
 ISSUE: Module path maps are not resolved in emitted code, https://github.com/microsoft/TypeScript/issues/10866
 
 ```json{
