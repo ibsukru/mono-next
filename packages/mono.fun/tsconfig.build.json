@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "exclude": ["node_modules", "dist", "**/*.story*", "**/*.test*"],
+  "compilerOptions": {
+    "outDir": "dist/random/faces"
+  }
+}

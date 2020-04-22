@@ -1,11 +1,8 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.build.json",
   "exclude": ["node_modules", "dist-esm", "dist", "**/*.story*", "**/*.test*"],
   "compilerOptions": {
-    "noEmit": true,
-    "outDir": "dist",
-    "declaration": true,
-    "inlineSourceMap": true
+    "outDir": "dist"
   },
-  "include": ["server/**/*.ts"]
+  "include": ["server/**/*.ts", "common/**/*.ts"]
 }

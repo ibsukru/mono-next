@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "build:types": "tsc -b packages/**/tsconfig.build.json",
     "clean": "rm -rf packages/**/dist* && tsc --build --clean",
     "clear": "yarn clean && rm -rf packages/*/node_modules && rm -rf yarn.lock && yarn",
     "lint": "eslint 'packages/**/*.{ts,tsx}'",
@@ -10,7 +11,7 @@
     "dev": "yarn --cwd packages/mono.web dev",
     "start": "yarn --cwd packages/mono.web start",
     "start:api": "yarn --cwd packages/mono.api start",
-    "build": "yarn clean && tsc -b packages/**/tsconfig.build.json && lerna run build"
+    "build": "yarn clean && yarn build:types && lerna run build"
   },
   "workspaces": [
     "packages/*"

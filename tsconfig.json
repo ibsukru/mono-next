@@ -1,4 +1,5 @@
 {
+  // BABEL: https://github.com/microsoft/TypeScript-Babel-Starter
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
     "skipLibCheck": true,
