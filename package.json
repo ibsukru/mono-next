@@ -1,6 +1,9 @@
 {
   "name": "mononext",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "nps": "nps",
     "build:types": "tsc -b packages/**/tsconfig.build.json",
@@ -14,9 +17,6 @@
     "start:api": "yarn --cwd packages/mono.api start",
     "build": "yarn clean && yarn build:types && lerna run build"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
