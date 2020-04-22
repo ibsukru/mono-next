@@ -1,7 +1,7 @@
 # ヾ(⌐■_■)ノ♪ 
 https://www.mixcloud.com/Dr_Rob/
 
-## 📦Works also with babel module path resolvers if you have deep relative path imports in any package 
+###  📦Works also with babel module path resolvers if you have deep relative path imports in any package 
 ISSUE: Module path maps are not resolved in emitted code, https://github.com/microsoft/TypeScript/issues/10866
 
 ```json{
@@ -33,7 +33,7 @@ ISSUE: Module path maps are not resolved in emitted code, https://github.com/mic
 }
 ```
 
-# Links
+### Refs
 https://dev.to/shnydercom/monorepos-lerna-typescript-cra-and-storybook-combined-4hli
 
 https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d
