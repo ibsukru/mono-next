@@ -4,6 +4,7 @@ import { add as dist } from "@mono/lib/src";
 import { add } from "@mono/lib";
 
 import { install } from "source-map-support";
+import { serverAndClient } from "../common";
 install();
 
 const port = process.env.PORT || "3000";
@@ -21,9 +22,9 @@ app.prepare().then(() => {
   server.listen(port, (err) => {
     if (err) throw err;
     console.log(
-      `> Ready on http://localhost:${port}, add(1)(3) = ${add(1)(3)} === ${dist(
+      `> ${serverAndClient()} Ready on http://localhost:${port}, add(1)(3) = ${add(
         1
-      )(3)}`
+      )(3)} === ${dist(1)(3)}`
     );
   });
 });

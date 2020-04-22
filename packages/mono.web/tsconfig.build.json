@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.json",
   "exclude": ["node_modules", "dist-esm", "dist", "**/*.story*", "**/*.test*"],
   "compilerOptions": {
+    "noEmit": true,
     "outDir": "dist",
     "declaration": true,
     "inlineSourceMap": true
