@@ -2,7 +2,6 @@
   "name": "mono.web",
   "version": "1.0.0",
   "main": "dist/index",
-  "author": "ibrahim velinov",
   "license": "MIT",
   "scripts": {
     "dev": "node --trace-uncaught dist/index",

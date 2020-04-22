@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "dist/index",
   "module": "dist-esm/index",
-  "author": "ibrahim velinov",
   "license": "MIT",
   "scripts": {
     "_build": "tsc --build tsconfig.esm.json"

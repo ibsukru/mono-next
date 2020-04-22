@@ -2,7 +2,6 @@
   "name": "mono.api",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "ibrahim velinov",
   "license": "MIT",
   "scripts": {
     "build": "next build & yarn run babel server -d --out-dir dist --extensions '.ts'",
