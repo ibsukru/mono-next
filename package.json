@@ -2,11 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "clean": "rm -rf packages/**/dist* && tsc --build --clean",
+    "clear": "yarn clean && rm -rf packages/*/node_modules && rm -rf yarn.lock && yarn",
     "lint": "eslint 'packages/**/*.{ts,tsx}'",
     "lint:fix": "yarn lint --fix",
     "compile": "tsc --noEmit",
-    "clean": "rm -rf packages/**/dist* && tsc --build --clean",
-    "clear": "yarn clean && rm -rf packages/*/node_modules && rm -rf yarn.lock && yarn",
     "dev": "yarn --cwd packages/mono.web dev",
     "start": "yarn --cwd packages/mono.web start",
     "build": "yarn clean && tsc -b packages/**/tsconfig.build.json && lerna run build"
