@@ -13,6 +13,7 @@ const alias = libs.reduce((acc, lib) => {
   };
 }, {});
 
+// https://babeljs.io/docs/en/7.5.0/configuration#babelconfigjs
 module.exports = {
   presets: ["next/babel", "@babel/preset-typescript"],
   plugins: [
