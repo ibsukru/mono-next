@@ -4,14 +4,13 @@
   "main": "dist/index",
   "license": "MIT",
   "scripts": {
-    "dev": "node --trace-uncaught dist/index",
-    "start": "NODE_ENV=production node dist/server/index",
+    "dev": "node --trace-uncaught dist/server",
+    "start": "NODE_ENV=production node dist/server",
     "build": "next build & yarn run babel server -d --out-dir dist/server --extensions '.ts,.tsx' & yarn run babel common -d --out-dir dist/common --extensions '.ts,.tsx'"
   },
   "dependencies": {
     "mono.lib": "1.0.0",
     "mono.fun": "1.0.0",
-    "cowsay-browser": "^1.1.8",
     "express": "^4.17.1",
     "next": "^9.3.5",
     "react": "^16.13.1",
