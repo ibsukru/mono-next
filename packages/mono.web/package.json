@@ -15,12 +15,10 @@
     "next": "^9.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "source-map-support": "^0.5.17"
   },
   "devDependencies": {
     "@types/express": "^4.17.6",
     "@types/react": "^16.9.34",
-    "@types/source-map-support": "^0.5.1",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
