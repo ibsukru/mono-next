@@ -2,8 +2,8 @@ import express from "express";
 import next from "next";
 import { install } from "source-map-support";
 import face from "mono.fun/random/faces";
-import { add as src } from "@mono/lib/src";
-import { add } from "@mono/lib";
+import { add as src } from "mono.lib/src";
+import { add } from "mono.lib";
 import { serverAndClient } from "../common";
 install();
 

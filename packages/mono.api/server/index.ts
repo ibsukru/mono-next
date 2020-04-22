@@ -1,6 +1,6 @@
 import express from "express";
-import { add } from "@mono/lib";
-import partial from "@mono/lib/src/add";
+import { add } from "mono.lib";
+import partial from "mono.lib/src/add";
 import face from "mono.fun/random/faces";
 
 const port = process.env.PORT || "4000";

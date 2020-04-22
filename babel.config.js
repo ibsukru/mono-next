@@ -1,6 +1,6 @@
 /*eslint-env node*/
 
-const libs = ["@mono/lib", "mono.fun"];
+const libs = ["mono.lib", "mono.fun"];
 
 const alias = libs.reduce((acc, lib) => {
   return {

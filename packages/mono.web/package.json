@@ -9,7 +9,7 @@
     "build": "next build & yarn run babel server -d --out-dir dist/server --extensions '.ts,.tsx' & yarn run babel common -d --out-dir dist/common --extensions '.ts,.tsx'"
   },
   "dependencies": {
-    "@mono/lib": "1.0.0",
+    "mono.lib": "1.0.0",
     "mono.fun": "1.0.0",
     "cowsay-browser": "^1.1.8",
     "express": "^4.17.1",

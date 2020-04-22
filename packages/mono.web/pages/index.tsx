@@ -1,5 +1,5 @@
-import { add as dist } from "@mono/lib/src";
-import { add } from "@mono/lib";
+import { add as dist } from "mono.lib/src";
+import { add } from "mono.lib";
 import { serverAndClient } from "../common";
 import face from "mono.fun/random/faces";
 

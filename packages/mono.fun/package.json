@@ -7,6 +7,6 @@
     "build": "next build & yarn run babel random -d --out-dir dist/random --extensions '.ts'"
   },
   "dependencies": {
-    "@mono/lib": "1.0.0"
+    "mono.lib": "1.0.0"
   }
 }

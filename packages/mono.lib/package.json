@@ -1,5 +1,5 @@
 {
-  "name": "@mono/lib",
+  "name": "mono.lib",
   "version": "1.0.0",
   "main": "dist/index",
   "types": "index",
