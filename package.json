@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "mononext",
   "private": true,
   "scripts": {
     "nps": "nps",
@@ -24,8 +24,5 @@
     "@babel/preset-typescript": "^7.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "lerna": "^3.20.2"
-  },
-  "dependencies": {
-    "nps": "^5.9.12"
   }
 }
