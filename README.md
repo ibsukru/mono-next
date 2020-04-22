@@ -29,9 +29,6 @@ ISSUE: Module path maps are not resolved in emitted code, https://github.com/mic
     "@babel/preset-typescript": "^7.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "lerna": "^3.20.2"
-  },
-  "dependencies": {
-    "nps": "^5.9.12"
   }
 }
 ```
