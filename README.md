@@ -1,3 +1,6 @@
+# Supports with module path resolvers
+ISSUE: Module path maps are not resolved in emitted code, https://github.com/microsoft/TypeScript/issues/10866
+
 # ヾ(⌐■_■)ノ♪ 
 https://www.mixcloud.com/Dr_Rob/
 
