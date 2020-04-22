@@ -1,7 +1,7 @@
 # ヾ(⌐■_■)ノ♪ 
 https://www.mixcloud.com/Dr_Rob/
 
-# Works also with babel module path resolvers if you have app deep relative path imports in any level
+# Works also with babel module path resolvers if you have deep relative path imports in any package 📦
 ISSUE: Module path maps are not resolved in emitted code, https://github.com/microsoft/TypeScript/issues/10866
 
 ```json{
