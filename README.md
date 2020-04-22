@@ -9,7 +9,7 @@ ISSUE: Module path maps are not resolved in emitted code, https://github.com/mic
   "workspaces": [
     "packages/*"
   ],
-  "private": true,
+  "private": 🤫,
   "scripts": {
     "build:types": "tsc -b packages/**/tsconfig.build.json",
     "clean": "rm -rf packages/**/dist* && tsc --build --clean",
