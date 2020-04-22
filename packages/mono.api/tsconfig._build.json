@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": ["node_modules", "dist-esm", "dist", "**/*.story*", "**/*.test*"],
+  "compilerOptions": {
+    "rootDirs": ["server"],
+    "outDir": "dist",
+    "declaration": true
+  }
+}

@@ -10,8 +10,6 @@
     "build": "next build & yarn run babel server -d --out-dir dist/server --extensions '.ts,.tsx' & yarn run babel common -d --out-dir dist/common --extensions '.ts,.tsx'"
   },
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
     "@mono/lib": "1.0.0",
     "cowsay-browser": "^1.1.8",
     "express": "^4.17.1",
@@ -21,16 +19,11 @@
     "source-map-support": "^0.5.17"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-typescript": "^7.9.0",
     "@types/express": "^4.17.6",
     "@types/react": "^16.9.34",
     "@types/source-map-support": "^0.5.1",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
-    "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^6.8.0",
     "typescript": "^3.8.3"
   }

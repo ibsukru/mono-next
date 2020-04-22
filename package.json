@@ -9,12 +9,18 @@
     "compile": "tsc --noEmit",
     "dev": "yarn --cwd packages/mono.web dev",
     "start": "yarn --cwd packages/mono.web start",
+    "start:api": "yarn --cwd packages/mono.api start",
     "build": "yarn clean && tsc -b packages/**/tsconfig.build.json && lerna run build"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-plugin-module-resolver": "^4.0.0"
   }
 }
