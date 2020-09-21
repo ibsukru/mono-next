@@ -10,6 +10,6 @@
     "_build": "tsc --build tsconfig.esm.json"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   }
 }
